@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace CryptoDev\OrchidTables;
+namespace CryptoDev4\OrchidTables;
 
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\Auth;
-use CryptoDev\OrchidTables\Exceptions\UnknownPermissionException;
+use CryptoDev4\OrchidTables\Exceptions\UnknownPermissionException;
 use Orchid\Support\Facades\Dashboard;
 
 class DataHelpers

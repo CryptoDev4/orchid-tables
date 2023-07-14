@@ -1,6 +1,6 @@
 The MIT License (MIT)
 
-Copyright (c) Bálint Vass <lintaba@gmail.com>
+Copyright (c) Bálint Vass <cryptodev100972m@gmail.com>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

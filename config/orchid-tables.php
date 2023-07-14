@@ -1,6 +1,6 @@
 <?php
 
-use CryptoDev\OrchidTables\Mixins;
+use CryptoDev4\OrchidTables\Mixins;
 
 return [
     'mixins' => [

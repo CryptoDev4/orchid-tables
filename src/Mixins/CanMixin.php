@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace CryptoDev\OrchidTables\Mixins;
+namespace CryptoDev4\OrchidTables\Mixins;
 
-use CryptoDev\OrchidTables\DataHelpers;
+use CryptoDev4\OrchidTables\DataHelpers;
 
 class CanMixin
 {

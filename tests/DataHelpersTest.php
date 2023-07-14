@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace CryptoDev\OrchidTables;
+namespace CryptoDev4\OrchidTables;
 
 use PHPUnit\Framework\TestCase;
 
@@ -23,7 +23,7 @@ class DataHelpersTest extends TestCase
         $this->assertSame($expected, DataHelpers::formatNum($input, ...$args));
     }
 
-    public function provideNumberFormat()
+    public static function provideNumberFormat()
     {
         return [
             'regular number' => [1,'1'],

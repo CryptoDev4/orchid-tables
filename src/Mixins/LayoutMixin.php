@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace CryptoDev\OrchidTables\Mixins;
+namespace CryptoDev4\OrchidTables\Mixins;
 
 use Orchid\Screen\Layout;
 use Orchid\Screen\Repository;

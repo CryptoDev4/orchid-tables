@@ -148,7 +148,7 @@ $(function () {
         update();
       };
 
-      $('.cb-check-' + id).change(updateMain).on('lintaba:checked', updateMain).click(function (e) {
+      $('.cb-check-' + id).change(updateMain).on('cryptodev4:checked', updateMain).click(function (e) {
         var $checkboxes = $('.cb-check-' + id).not('[disabled]');
         var clickTarget = this;
 
@@ -160,7 +160,7 @@ $(function () {
         if (e.shiftKey) {
           var start = $checkboxes.index(clickTarget);
           var end = $checkboxes.index(lastChecked);
-          $checkboxes.slice(Math.min(start, end), Math.max(start, end) + 1).prop('checked', lastChecked.checked).trigger('lintaba:checked');
+          $checkboxes.slice(Math.min(start, end), Math.max(start, end) + 1).prop('checked', lastChecked.checked).trigger('cryptodev4:checked');
         }
 
         update();
@@ -223,8 +223,8 @@ $(function () {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /Users/lintaba/Work/lintaba/orchid-custom/packages/lintaba/orchid-tables/resources/js/app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! /Users/lintaba/Work/lintaba/orchid-custom/packages/lintaba/orchid-tables/resources/sass/app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! /Users/cryptodev4/Work/cryptodev4/orchid-custom/packages/cryptodev4/orchid-tables/resources/js/app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! /Users/cryptodev4/Work/cryptodev4/orchid-custom/packages/cryptodev4/orchid-tables/resources/sass/app.scss */"./resources/sass/app.scss");
 
 
 /***/ })

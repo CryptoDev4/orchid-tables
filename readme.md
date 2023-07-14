@@ -4,7 +4,7 @@
 [![Total Downloads][ico-downloads]][link-downloads]
 [![Build Status][ico-travis]][link-travis]
 [![StyleCI][ico-styleci]][link-styleci]
-[![PHP Composer](https://github.com/lintaba/orchid-tables/actions/workflows/php.yml/badge.svg)](https://github.com/lintaba/orchid-tables/actions/workflows/php.yml)
+[![PHP Composer](https://github.com/cryptodev4/orchid-tables/actions/workflows/php.yml/badge.svg)](https://github.com/cryptodev4/orchid-tables/actions/workflows/php.yml)
 
 An opinionated extension package for [Laravel Orchid](orchid) to extend its table handling capabilities, and some
 further useful helper methods.
@@ -14,7 +14,7 @@ further useful helper methods.
 Via Composer
 
 ``` bash
-$ composer require lintaba/orchid-tables
+$ composer require cryptodev4/orchid-tables
 ```
 
 ## Usage
@@ -46,7 +46,7 @@ Checklist with select-all support. Can select range by pressing `shift`.
 Usage:
 
 ```php
-use CryptoDev\OrchidTables\Screen\TDChecklist;
+use CryptoDev4\OrchidTables\Screen\TDChecklist;
 
 class UserTable extends Table {
 //...
@@ -229,7 +229,7 @@ By default its not activated, as it adds an extra overhead, which is usually not
 ```
 or call the following:
 ```php
-\CryptoDev\OrchidTables\Facades\OrchidTables::mixinTdExportFormattables();
+\CryptoDev4\OrchidTables\Facades\OrchidTables::mixinTdExportFormattables();
 ```
 
 Augmented methods:
@@ -297,11 +297,11 @@ TD::make('name')->exportRender(function(string $value, User $entry, int $rowNum)
 
 ### <a name=QuickExport></a>QuickExport
 
-Using `CryptoDev\OrchidTables\Exports\QuickExport` its possible to set up data exports quickly, without creating extra classes, just by building on an already existing table.
+Using `CryptoDev4\OrchidTables\Exports\QuickExport` its possible to set up data exports quickly, without creating extra classes, just by building on an already existing table.
 
 **Quick export example:**
 ```php
-use CryptoDev\OrchidTables\Exports\QuickExport;
+use CryptoDev4\OrchidTables\Exports\QuickExport;
 use Orchid\Screen\Actions\Button;
 use Orchid\Screen\Screen;
 
@@ -324,7 +324,7 @@ class UsersTableScreen extends Screen
 
 
 ### <a name=tableAdvanced></a> TableAdvanced
-The extended table layout, `\CryptoDev\OrchidTables\Screen\TableAdvanced` adds the following functionality:
+The extended table layout, `\CryptoDev4\OrchidTables\Screen\TableAdvanced` adds the following functionality:
 
 #### rowClass($row)
 Calculates classlist based on a row. Useful for coloring a whole row.
@@ -336,7 +336,7 @@ Makes a row clickable.
 **Example:**
 
 ```php
-use CryptoDev\OrchidTables\Screen\TableAdvanced
+use CryptoDev4\OrchidTables\Screen\TableAdvanced
 
 class UserTable extends TableAdvanced
 {
@@ -363,7 +363,7 @@ php artisan vendor:publish --tag="orchid-tables.config"
 
 ```php
 # /config/orchid-tables.php
-use CryptoDev\OrchidTables\Mixins;
+use CryptoDev4\OrchidTables\Mixins;
 
 return [
     'mixins' => [
@@ -377,7 +377,7 @@ return [
 
 ```
 
-Extend or create your overwrites, based on the existing mixins, like `\CryptoDev\OrchidTables\CellMixin`. You can turn on
+Extend or create your overwrites, based on the existing mixins, like `\CryptoDev4\OrchidTables\CellMixin`. You can turn on
 or off any of these mixins by setting their key to `null`.
 
 ## Change log
@@ -404,23 +404,23 @@ Please see [contributing.md](contributing.md) and open tickets for details and a
 
 MIT. Please see the [license file](license.md) for more information.
 
-[ico-version]: https://img.shields.io/packagist/v/lintaba/orchid-tables.svg?style=flat-square
+[ico-version]: https://img.shields.io/packagist/v/cryptodev4/orchid-tables.svg?style=flat-square
 
-[ico-downloads]: https://img.shields.io/packagist/dt/lintaba/orchid-tables.svg?style=flat-square
+[ico-downloads]: https://img.shields.io/packagist/dt/cryptodev4/orchid-tables.svg?style=flat-square
 
-[ico-travis]: https://img.shields.io/travis/lintaba/orchid-tables/master.svg?style=flat-square
+[ico-travis]: https://img.shields.io/travis/cryptodev4/orchid-tables/master.svg?style=flat-square
 
 [ico-styleci]: https://styleci.io/repos/452941365/shield
 
-[link-packagist]: https://packagist.org/packages/lintaba/orchid-tables
+[link-packagist]: https://packagist.org/packages/cryptodev4/orchid-tables
 
-[link-downloads]: https://packagist.org/packages/lintaba/orchid-tables
+[link-downloads]: https://packagist.org/packages/cryptodev4/orchid-tables
 
-[link-travis]: https://travis-ci.org/lintaba/orchid-tables
+[link-travis]: https://travis-ci.org/cryptodev4/orchid-tables
 
 [link-styleci]: https://styleci.io/repos/452941365
 
-[link-author]: https://github.com/lintaba
+[link-author]: https://github.com/cryptodev4
 
 [link-contributors]: ../../contributors
 

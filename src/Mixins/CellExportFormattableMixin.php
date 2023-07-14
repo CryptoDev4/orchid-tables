@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace CryptoDev\OrchidTables\Mixins;
+namespace CryptoDev4\OrchidTables\Mixins;
 
-use CryptoDev\OrchidTables\DataHelpers;
-use CryptoDev\OrchidTables\ExportStyles;
+use CryptoDev4\OrchidTables\DataHelpers;
+use CryptoDev4\OrchidTables\ExportStyles;
 use Orchid\Screen\Cell;
 
 class CellExportFormattableMixin extends CellMixin

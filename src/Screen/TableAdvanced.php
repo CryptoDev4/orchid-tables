@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace CryptoDev\OrchidTables\Screen;
+namespace CryptoDev4\OrchidTables\Screen;
 
 use Illuminate\Contracts\View\Factory;
 use Illuminate\Database\Eloquent\Model;

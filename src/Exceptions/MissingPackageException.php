@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace CryptoDev\OrchidTables\Exceptions;
+namespace CryptoDev4\OrchidTables\Exceptions;
 
 use Facade\IgnitionContracts\BaseSolution;
 use Facade\IgnitionContracts\ProvidesSolution;

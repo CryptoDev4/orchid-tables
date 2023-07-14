@@ -41,7 +41,7 @@ $(function () {
             };
 
 
-            $('.cb-check-' + id).change(updateMain).on('lintaba:checked', updateMain).click(function (e) {
+            $('.cb-check-' + id).change(updateMain).on('cryptodev4:checked', updateMain).click(function (e) {
                 const $checkboxes = $('.cb-check-' + id).not('[disabled]');
 
                 const clickTarget = this;
@@ -53,7 +53,7 @@ $(function () {
                 if (e.shiftKey) {
                     const start = $checkboxes.index(clickTarget);
                     const end = $checkboxes.index(lastChecked);
-                    $checkboxes.slice(Math.min(start, end), Math.max(start, end) + 1).prop('checked', lastChecked.checked).trigger('lintaba:checked');
+                    $checkboxes.slice(Math.min(start, end), Math.max(start, end) + 1).prop('checked', lastChecked.checked).trigger('cryptodev4:checked');
                 }
 
                 update();

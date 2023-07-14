@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace CryptoDev\OrchidTables\Exports;
+namespace CryptoDev4\OrchidTables\Exports;
 
 use PhpOffice\PhpSpreadsheet\Style\Alignment;
 use PhpOffice\PhpSpreadsheet\Style\Color;

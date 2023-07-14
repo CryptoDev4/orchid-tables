@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace CryptoDev\OrchidTables\Exports;
+namespace CryptoDev4\OrchidTables\Exports;
 
 use DateTimeInterface;
 use Illuminate\Database\Eloquent\Model;

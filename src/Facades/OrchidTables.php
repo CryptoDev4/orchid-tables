@@ -1,13 +1,13 @@
 <?php
 
-namespace CryptoDev\OrchidTables\Facades;
+namespace CryptoDev4\OrchidTables\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
 /**
  * Class OrchidTables
  *
- * @mixin \CryptoDev\OrchidTables\OrchidTables
+ * @mixin \CryptoDev4\OrchidTables\OrchidTables
  */
 class OrchidTables extends Facade
 {

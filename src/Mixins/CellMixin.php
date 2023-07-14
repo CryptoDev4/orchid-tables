@@ -2,15 +2,15 @@
 
 declare(strict_types=1);
 
-namespace CryptoDev\OrchidTables\Mixins;
+namespace CryptoDev4\OrchidTables\Mixins;
 
 use Carbon\CarbonImmutable;
 use Carbon\Exceptions\InvalidFormatException;
 use DateTimeInterface;
 use Illuminate\Support\HtmlString;
 use Illuminate\Support\Str;
-use CryptoDev\OrchidTables\DataHelpers;
-use CryptoDev\OrchidTables\Screen\TD;
+use CryptoDev4\OrchidTables\DataHelpers;
+use CryptoDev4\OrchidTables\Screen\TD;
 use Orchid\Icons\IconComponent;
 use Orchid\Screen\Cell;
 use Orchid\Screen\Contracts\Personable;
