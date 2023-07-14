@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Lintaba\OrchidTables;
+namespace CryptoDev\OrchidTables;
 
-use Lintaba\OrchidTables\Exceptions\MissingPackageException;
-use Lintaba\OrchidTables\Mixins\CellExportFormattableMixin;
+use CryptoDev\OrchidTables\Exceptions\MissingPackageException;
+use CryptoDev\OrchidTables\Mixins\CellExportFormattableMixin;
 use Maatwebsite\Excel\Excel;
 use Orchid\Screen\Cell;
 use PhpOffice\PhpSpreadsheet\Worksheet\Worksheet;

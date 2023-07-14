@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Lintaba\OrchidTables\Screen;
+namespace CryptoDev\OrchidTables\Screen;
 
 use Illuminate\Contracts\Foundation\Application;
 use Illuminate\Contracts\View\Factory;

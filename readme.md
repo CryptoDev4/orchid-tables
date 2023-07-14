@@ -46,7 +46,7 @@ Checklist with select-all support. Can select range by pressing `shift`.
 Usage:
 
 ```php
-use Lintaba\OrchidTables\Screen\TDChecklist;
+use CryptoDev\OrchidTables\Screen\TDChecklist;
 
 class UserTable extends Table {
 //...
@@ -229,7 +229,7 @@ By default its not activated, as it adds an extra overhead, which is usually not
 ```
 or call the following:
 ```php
-\Lintaba\OrchidTables\Facades\OrchidTables::mixinTdExportFormattables();
+\CryptoDev\OrchidTables\Facades\OrchidTables::mixinTdExportFormattables();
 ```
 
 Augmented methods:
@@ -297,11 +297,11 @@ TD::make('name')->exportRender(function(string $value, User $entry, int $rowNum)
 
 ### <a name=QuickExport></a>QuickExport
 
-Using `Lintaba\OrchidTables\Exports\QuickExport` its possible to set up data exports quickly, without creating extra classes, just by building on an already existing table.
+Using `CryptoDev\OrchidTables\Exports\QuickExport` its possible to set up data exports quickly, without creating extra classes, just by building on an already existing table.
 
 **Quick export example:**
 ```php
-use Lintaba\OrchidTables\Exports\QuickExport;
+use CryptoDev\OrchidTables\Exports\QuickExport;
 use Orchid\Screen\Actions\Button;
 use Orchid\Screen\Screen;
 
@@ -324,7 +324,7 @@ class UsersTableScreen extends Screen
 
 
 ### <a name=tableAdvanced></a> TableAdvanced
-The extended table layout, `\Lintaba\OrchidTables\Screen\TableAdvanced` adds the following functionality:
+The extended table layout, `\CryptoDev\OrchidTables\Screen\TableAdvanced` adds the following functionality:
 
 #### rowClass($row)
 Calculates classlist based on a row. Useful for coloring a whole row.
@@ -336,7 +336,7 @@ Makes a row clickable.
 **Example:**
 
 ```php
-use Lintaba\OrchidTables\Screen\TableAdvanced
+use CryptoDev\OrchidTables\Screen\TableAdvanced
 
 class UserTable extends TableAdvanced
 {
@@ -363,7 +363,7 @@ php artisan vendor:publish --tag="orchid-tables.config"
 
 ```php
 # /config/orchid-tables.php
-use Lintaba\OrchidTables\Mixins;
+use CryptoDev\OrchidTables\Mixins;
 
 return [
     'mixins' => [
@@ -377,7 +377,7 @@ return [
 
 ```
 
-Extend or create your overwrites, based on the existing mixins, like `\Lintaba\OrchidTables\CellMixin`. You can turn on
+Extend or create your overwrites, based on the existing mixins, like `\CryptoDev\OrchidTables\CellMixin`. You can turn on
 or off any of these mixins by setting their key to `null`.
 
 ## Change log

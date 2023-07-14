@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Lintaba\OrchidTables\Mixins;
+namespace CryptoDev\OrchidTables\Mixins;
 
 use Orchid\Screen\Layout;
 use Orchid\Screen\Repository;

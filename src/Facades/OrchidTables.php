@@ -1,13 +1,13 @@
 <?php
 
-namespace Lintaba\OrchidTables\Facades;
+namespace CryptoDev\OrchidTables\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
 /**
  * Class OrchidTables
  *
- * @mixin \Lintaba\OrchidTables\OrchidTables
+ * @mixin \CryptoDev\OrchidTables\OrchidTables
  */
 class OrchidTables extends Facade
 {

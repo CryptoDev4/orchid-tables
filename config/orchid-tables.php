@@ -1,6 +1,6 @@
 <?php
 
-use Lintaba\OrchidTables\Mixins;
+use CryptoDev\OrchidTables\Mixins;
 
 return [
     'mixins' => [

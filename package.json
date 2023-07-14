@@ -28,7 +28,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Lintaba\\OrchidTables\\OrchidTablesServiceProvider"
+                "CryptoDev\\OrchidTables\\OrchidTablesServiceProvider"
             ]
         }
     }

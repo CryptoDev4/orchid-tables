@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Lintaba\OrchidTables\Exceptions;
+namespace CryptoDev\OrchidTables\Exceptions;
 
 use Facade\IgnitionContracts\BaseSolution;
 use Facade\IgnitionContracts\ProvidesSolution;

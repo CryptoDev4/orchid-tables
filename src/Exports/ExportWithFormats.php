@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Lintaba\OrchidTables\Exports;
+namespace CryptoDev\OrchidTables\Exports;
 
 use Maatwebsite\Excel\Concerns;
 use PhpOffice\PhpSpreadsheet\Cell\Coordinate;

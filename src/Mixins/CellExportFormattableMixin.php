@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Lintaba\OrchidTables\Mixins;
+namespace CryptoDev\OrchidTables\Mixins;
 
-use Lintaba\OrchidTables\DataHelpers;
-use Lintaba\OrchidTables\ExportStyles;
+use CryptoDev\OrchidTables\DataHelpers;
+use CryptoDev\OrchidTables\ExportStyles;
 use Orchid\Screen\Cell;
 
 class CellExportFormattableMixin extends CellMixin

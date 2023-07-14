@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Lintaba\OrchidTables\Screen;
+namespace CryptoDev\OrchidTables\Screen;
 
 /**
  * Class TD

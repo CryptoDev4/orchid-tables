@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Lintaba\OrchidTables;
+namespace CryptoDev\OrchidTables;
 
 use PHPUnit\Framework\TestCase;
 

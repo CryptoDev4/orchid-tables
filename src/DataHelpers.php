@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Lintaba\OrchidTables;
+namespace CryptoDev\OrchidTables;
 
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\Auth;
-use Lintaba\OrchidTables\Exceptions\UnknownPermissionException;
+use CryptoDev\OrchidTables\Exceptions\UnknownPermissionException;
 use Orchid\Support\Facades\Dashboard;
 
 class DataHelpers
