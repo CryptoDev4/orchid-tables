@@ -14,7 +14,7 @@ further useful helper methods.
 Via Composer
 
 ``` bash
-$ composer require cryptodev4/orchid-tables
+$ composer require cryptodev4/orchid-tables --dev-master
 ```
 
 ## Usage
